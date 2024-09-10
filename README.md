@@ -4,23 +4,24 @@ This repository contains the implementation of an automatic license plate detect
 
 ## Tech Stack
 Frameworks: PyTorch, YOLOv8 <br>
-Languages: Python
-Libraries: OpenCV, NumPy, Pandas
+Languages: Python <br>
+Libraries: OpenCV, NumPy, Pandas <br>
 Deployment: Streamlit
 
 ## Dataset
-Link : https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
-Total images: 433
+Link : https://www.kaggle.com/datasets/andrewmvd/car-plate-detection <br>
+Total images: 433 <br>
 The dataset consists of pre-annotated images of vehicles with corresponding XML files.
 The annotations were processed and converted into the YOLO format for training purposes.
 
 ## Model Training
-Model: YOLOv8
-Epochs: 100
+Model: YOLOv8 <br>
+Epochs: 100 <br>
 The XML annotations were extensively processed and transformed into YOLOv8-compatible format.
 Trained for 100 epochs with optimal hyperparameters to maximize detection performance.
-Performance
-mAP@0.5-0.7: Achieved satisfactory accuracy levels for plate detection.
+
+## Performance
+mAP@0.5-0.7: Achieved satisfactory accuracy levels for plate detection.<br>
 mAP@0.5:0.95-0.5: Demonstrates robustness in detecting plates under varying conditions.
 
 ## Deployment
