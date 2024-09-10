@@ -3,7 +3,7 @@
 This repository contains the implementation of an automatic license plate detection system using PyTorch and YOLOv8. The project aims to detect license plates in images with high accuracy and deploys the model via a Streamlit web application.
 
 ## Tech Stack
-Frameworks: PyTorch, YOLOv8
+Frameworks: PyTorch, YOLOv8 <br>
 Languages: Python
 Libraries: OpenCV, NumPy, Pandas
 Deployment: Streamlit
